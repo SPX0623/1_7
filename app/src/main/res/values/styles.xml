@@ -1,0 +1,29 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <string-array name="chehao">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="hld">
+        <item>路口升序</item>
+        <item>路口降序</item>
+        <item>红灯升序</item>
+        <item>红灯降序</item>
+        <item>绿灯升序</item>
+        <item>绿灯降序</item>
+        <item>黄灯升序</item>
+        <item>黄灯降序</item>
+    </string-array>
+    <string-array name="czjl">
+        <item>时间升序</item>
+        <item>时间降序</item>
+    </string-array>
+
+</resources>

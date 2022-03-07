@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/WdZh"
+            android:title="我的账户"/>
+        <item android:id="@+id/Hld"
+            android:title="红绿灯管理"/>
+        <item android:id="@+id/ZdGl"
+            android:title="账单管理"/>
+        <item android:id="@+id/ClWz"
+            android:title="车辆违章"/>
+        <item android:id="@+id/HjZb"
+            android:title="环境指标"/>
+        <item android:id="@+id/SsXs"
+            android:title="实时显示"/>
+        <item android:id="@+id/YzSz"
+            android:title="阈值设置"/>
+        <item android:id="@+id/ls"
+            android:title="天气记录"/>
+
+
+
+
+    </group>
+</menu>

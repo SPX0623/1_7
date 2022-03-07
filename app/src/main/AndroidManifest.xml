@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.a1_7">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Activity.YZSZ_Activity"></activity>
+        <activity android:name=".Activity.SSTP_Activity" />
+        <activity android:name=".Activity.imageplay" />
+        <activity android:name=".Activity.mediaplay" />
+        <activity android:name=".Activity.TQJL_Activity" />
+        <activity android:name=".Activity.SSXS_Activity" />
+        <activity android:name=".Activity.CLWZ_Activity" />
+        <activity android:name=".Activity.ZDGL_Activity" />
+        <activity android:name=".Activity.HLD_Activity" />
+        <activity android:name=".Activity.WDZH_Activity" />
+        <activity android:name=".Activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
